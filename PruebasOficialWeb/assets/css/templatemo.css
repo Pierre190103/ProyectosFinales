@@ -1,0 +1,45 @@
+/* Tipografía */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/* General */
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #ede861 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #59ab6e !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #59ab6e !important;}
+.btn-success {
+  background-color: #59ab6e !important;
+  border-color: #56ae6c !important;
+}
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #69bb7e;
+  color: #fff;
+}
+/* Navegación */
+#templatemo_nav_top { min-height: 40px;}
+#templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_main_nav a { color: #212934;}
+#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav .navbar .nav-icon { margen-derecho: 20px;}
