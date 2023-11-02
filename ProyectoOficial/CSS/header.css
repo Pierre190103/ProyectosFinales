@@ -1,0 +1,21 @@
+/* Estilos para el encabezado */
+header {
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente los elementos en el encabezado */
+    background-color: #333;
+    box-shadow: 0 7px 10px -5px #777;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+/* Estilos para el logotipo */
+/* Estilos para el logotipo */
+
+
+
+/* Estilos para el menú de navegación */
+

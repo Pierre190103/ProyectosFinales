@@ -1,0 +1,73 @@
+.privacidad {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Color de fondo de la casilla */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    max-width: 800px; /* Ancho máximo de la casilla */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; /* Margen inferior de 40px */
+
+}
+
+
+.privacidad p {
+    margin: 10px 0;
+}
+
+.privacidad strong {
+    font-weight: bold;
+}
+
+.privacidad ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.privacidad li {
+    margin-left: 20px;
+}
+
+
+/* Estilo para el contenido dentro de la casilla */
+.privacidad * {
+    text-align: left; /* Justificar a la izquierda */
+    margin: 20px; /* Margen entre el contenido y los bordes de la casilla */
+}
+
+
+
+.preguntas-frecuentes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.preguntas-frecuentes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer; /* Agregamos un cursor de puntero para indicar que es interactivo */
+}
+
+.preguntas-frecuentes p {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el contenido oculto */
+.contenido-oculto {
+    display: none;
+}
+
+.contenido-oculto.mostrado {
+    display: block;
+}
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
